@@ -1,5 +1,5 @@
 # Check out the algo here - https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
-# ------------------------------------------------------------
+# ============================================================================
 
 maxPrime = 1000000 # Maximum Value of Prime number checking
 
@@ -18,8 +18,7 @@ for i in range(2, int(maxPrime**0.5)+1):
  primeArray[num] = 1 indicates 'num' is Primne.
  You can also declare them by True and False.
 '''
-
-# ------------------------------------------------------------    
+# ============================================================================    
 # We need to check number of prime numbers in the range [first, last] , included
 
 first, last = map(int, input().split()) # Range Input
@@ -35,6 +34,6 @@ print ( count ) # Output
 1 11
 ======================== S A M P L E      O U T P U T ========================
 5
-------------------------------------------------------------------------------
+============================================================================== 
 Prime numbers betwen 1 to 7 are = 2, 3, 5, 7, 11 . Total 5.
 '''
