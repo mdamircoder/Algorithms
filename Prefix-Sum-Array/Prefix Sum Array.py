@@ -21,7 +21,8 @@ print( "Prefix Sum Array :", PrefSumArray )
 print( "Sum of elemets from index 0 to index 5 :", Calculate_PrefixSum (PrefSumArray, 0, 5) )
 print( "Sum of elemets from index 3 to index 5 :", Calculate_PrefixSum (PrefSumArray, 3, 5) )
 
-'''========================================================================================
+'''================================= E X P L A N A T I O N =================================
+
 'a' is the Array. You can take the array input manually .
   
 'PrefSumArray' is the array which stores Prefix Sum of the Array 'a' .
