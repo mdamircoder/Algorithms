@@ -31,7 +31,7 @@ n = 15
 print("Maximum prime divisor of", n, "is", Max_Prime_Divisor(n)) #5
 
 n = 89
-print("Maximum prime divisor of", n, "is", Max_Prime_Divisor(n)) #N.A.
+print("Maximum prime divisor of", n, "is", Max_Prime_Divisor(n)) #89
 
 n = 1
-print("Maximum prime divisor of", n, "is", Max_Prime_Divisor(n)) #-1
+print("Maximum prime divisor of", n, "is", Max_Prime_Divisor(n)) #N.A.
