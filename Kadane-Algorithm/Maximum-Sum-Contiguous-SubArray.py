@@ -1,7 +1,7 @@
 
 def Contiguous_Subarray_Max_Sum(a):
     size = len(a)
-    max_overall = - min(a) - 1 # Initialize by the lowest possible negative number
+    max_overall = min(a) - 1 # Initialize by the lowest possible negative number
     max_upto_this = 0
     for i in range(size):
         max_upto_this += a[i]
